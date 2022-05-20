@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:text="Регистрация"
+        android:textColor="@color/q"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registration_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/q"
+        android:onClick="registration_btn"
+        android:text="Зарегистрироваться"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Sname"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Фамилия"
+        android:textAlignment="textStart"
+        android:textColor="@color/q"
+
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Имя"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sname" />
+
+    <EditText
+        android:id="@+id/Fname"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Отчество"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+    <EditText
+        android:id="@+id/Birthday"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Дата рождения"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fname" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Телефон"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Birthday" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:textColor="@color/q"
+        android:hint="E-mail"
+        android:textSize="20dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Phone" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <EditText
+        android:id="@+id/rePassword"
+        android:layout_width="237dp"
+        android:layout_height="41dp"
+        android:textColor="@color/q"
+        android:textSize="20dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:hint="Повторите пароль"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

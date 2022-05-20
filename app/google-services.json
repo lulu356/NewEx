@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "17872547877",
+    "firebase_url": "https://newex-eb39a-default-rtdb.firebaseio.com",
+    "project_id": "newex-eb39a",
+    "storage_bucket": "newex-eb39a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17872547877:android:41da86f241f74d08d64fcc",
+        "android_client_info": {
+          "package_name": "com.example.newex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17872547877-ngb3dqokpp1uno89unjur1gct86odnbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTyXrNTKZsVcMi5r5Pb1C9IBX48nyWRJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17872547877-ngb3dqokpp1uno89unjur1gct86odnbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
